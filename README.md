@@ -1,2 +1,3 @@
-# dotnet-domain-events-rabbitmq
+# Demo .NET RabbitMQ resiliently
+
 Demo using RabbitMQ resiliently

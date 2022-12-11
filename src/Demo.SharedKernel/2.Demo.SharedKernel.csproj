@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+
+    <RootNamespace>Demo.SharedKernel</RootNamespace>
+    <AssemblyName>Demo.SharedKernel</AssemblyName>
+
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.BuildingBlocks\0.BuildingBlocks.csproj" />
+  </ItemGroup>
+
+</Project>

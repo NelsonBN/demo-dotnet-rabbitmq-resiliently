@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+
+    <RootNamespace>Demo.Api.Customers</RootNamespace>
+    <AssemblyName>Demo.Api.Customers</AssemblyName>
+    
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Polly" Version="7.2.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.BuildingBlocks.MessageBus\1.BuildingBlocks.MessageBus.csproj" />
+    <ProjectReference Include="..\Demo.SharedKernel\2.Demo.SharedKernel.csproj" />
+  </ItemGroup>
+
+
+</Project>
